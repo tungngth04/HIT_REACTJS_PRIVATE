@@ -1,0 +1,39 @@
+.button-toggle {
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 40px;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 20px;
+    position: relative;
+
+}
+
+.button-toggle::before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 40%;
+    height: 90%;
+    background-color: white;
+    border-radius: 20px;
+    transition: left 0.3s;
+
+}
+
+.button-toggle::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: 2px;
+    width: 50%;
+    height: 100%;
+
+    border-radius: 20px;
+    transition: right 0.3s;
+}
+
+.button-toggle.on::before {
+    left: 50%;
+}

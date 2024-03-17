@@ -1,0 +1,87 @@
+.contentf{
+    position: relative;
+}
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col1{
+    margin-bottom: 0;
+    width: 33.33%;
+}
+.col1 h3{
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #000;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.col1 p{
+    color: #9fa1a4;
+}
+.col1 .a1{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #f8f9fa;
+    position: relative;
+    text-align: center;
+    color: #0d1e2d;
+}
+.col1 .a1 i{
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.col1 .a1:hover{
+    background: rgba(39, 70, 133, 0.8);
+}
+.col2{
+    width: 58.33%;
+    padding-left: 100px;
+}
+.box_col2{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 0;
+}
+.col21{
+    margin-bottom: 0;
+    width: 33.33%;
+}
+.col21 h3{
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.col21 ul{
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.col21 li{
+    margin-bottom: 10px;
+}
+.col21 li  a{
+    color: #000;
+    text-decoration: none;
+}
+.row2{
+    justify-content: center;
+    text-align: center;
+}
+.row2 .bet1{
+    text-align: center;
+}
+.row2 .bet1 p{
+    font-size: 14px;
+    color: #9fa1a4;
+}
+.row2 .bet1 p a{
+    text-decoration: none;
+    color: black;
+}
