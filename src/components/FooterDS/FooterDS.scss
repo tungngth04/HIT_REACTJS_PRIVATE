@@ -1,0 +1,14 @@
+@import "../../assets/scss/variables";
+
+.footer {
+  background: var(--backgroud--color);
+
+  text-align: center;
+  color: #fff;
+  padding: 16px;
+  margin: 40px 0px 0px;
+
+  span {
+    text-decoration: underline;
+  }
+}
