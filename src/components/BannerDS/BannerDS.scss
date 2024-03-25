@@ -1,0 +1,16 @@
+@import "../../assets/scss/mixin";
+@import "../../assets/scss/variables";
+
+.banner {
+  @include flex;
+
+  margin-top: 40px;
+  height: 40vh;
+  background: var(--backgroud--color);
+  color: #fff;
+  text-align: center;
+
+  .banner-content {
+    width: 80%;
+  }
+}

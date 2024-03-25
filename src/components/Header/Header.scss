@@ -1,0 +1,36 @@
+.header {
+  height: 80px;
+  transition: all 0.5s;
+  z-index: 997;
+  transition: all 0.5s;
+  background: rgba(39, 70, 133, 0.8);
+
+  .box_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding-right: 100px;
+    padding-left: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+    .logo {
+      display: block;
+
+      & > h1 {
+        font-size: 28px;
+        padding: 4px 0px;
+        line-height: 1;
+        font-weight: 500;
+        margin: 0;
+
+        & > a {
+          text-decoration: none;
+          color: white;
+        }
+      }
+    }
+  }
+}

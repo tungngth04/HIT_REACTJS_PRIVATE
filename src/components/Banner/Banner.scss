@@ -1,0 +1,76 @@
+.container {
+  background: url(E:/HIT_Private_ReactJS/homework/src/assets/images/hero-bg.jpg);
+  padding: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 880px;
+
+  .box_container {
+    height: 880px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+
+    .box_container2 {
+      display: flex;
+      flex-wrap: wrap;
+
+      .box_container3 {
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+
+        .infor {
+          align-items: center;
+          width: 750px;
+
+          & > h1 {
+            font-size: 3.5rem;
+            color: #fff;
+            font-weight: 700;
+            margin-bottom: 30px;
+            width: 800px;
+          }
+
+          & > p {
+            font-size: 18px;
+            color: #fff;
+            padding-bottom: 50px;
+          }
+        }
+
+        .pic {
+          position: relative;
+          padding-top: 17.75rem;
+
+          & > img {
+            position: absolute;
+            top: -50%;
+            left: 100%;
+            box-shadow: 0 15px 50px 0 rgba(0, 0, 0, 0.3);
+            border-radius: 4px;
+            width: 250px;
+          }
+
+          .img2 {
+            margin-top: 50px;
+            margin-left: 100px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.wave {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  z-index: 1;
+  top: 770px;
+}
